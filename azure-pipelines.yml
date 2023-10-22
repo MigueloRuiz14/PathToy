@@ -33,10 +33,10 @@ steps:
     configuration: '$(buildConfiguration)'
 - task: SonarQubePrepare@5
   inputs:
-    SonarQube: 'Connection-Sonar'
+    SonarQube: 'PathToyConnection'
     scannerMode: 'CLI'
     configMode: 'manual'
-    cliProjectKey: 'PathToy'
+    cliProjectKey: 'PathToy_PathToy'
     cliProjectName: 'PathToy'
     cliSources: '.'
     extraProperties: |
